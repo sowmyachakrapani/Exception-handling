@@ -1,0 +1,89 @@
+exception e.
+This e helps us to identify the cause of the exception.
+* e.Message gives us information about the technical problem and is useful for technical people.
+* e.helplink -- if we install the 2 disks of msdn we can get help inform
+taion.
+* e.Source -->this tells from which microsoft dll this error is thrown.
+* e.stacktrace--->this finds all the functions which are resposible for this exception.
+suppose z function causes the exception then suppose z is called by y and y is called my m then it will list 
+m y z
+* e.innerexception --> if exception 1 is raised in a try block when the control goes to its catch block then in that block exception 2 is called so exception 1 becomes the inner exception.
+
+Interface :
+
+RUNTIME BINDING: Interface has only prototype of functions the derived class will have to write the definition for these functions.
+
+A obj = new A();
+obj.f1();
+here f1 of A is called.
+
+suppose there are 3 pgms which implement this same interface and each of them have the diff implementations of f1 during runtime the appropriate f1 is called.
+
+
+dynamic binding is the reason to use interface.
+
+in a comp monitor "+" and "-" buttons are there . BASED ON THE MENU we are in the + and - gets applied for either brightness,color,volume etc.
+
+Runtime binding is a concept of assigning instance of required class to interface type to invoke the function.
+
+create interface with methods call() amd sms().
+Create 3 classes which implement interface and demonstrate dynamic method dispatch.
+
+interface USIM
+{
+void call();
+void sms();
+}
+
+Interface only has the the function prototype but it will not have function body.
+Interface is implemented in a class.
+
+class Airtel :USIM
+{
+void call() {...}
+void sms() {...}
+void f1() {...}
+
+}
+
+
+class Aircel :USIM
+{
+void call() {...}
+void sms() {...}
+void f2() {...}
+
+}
+
+
+class  Reliance :USIM
+{
+void call() {...}
+void sms() {...}
+void f3() {...}
+
+}
+
+
+usim i;
+if( choice ==1)
+i= new airtel();
+if( choice ==2)
+i= new aircel();
+if( choice ==3)
+i= new reliance();
+
+i.call();
+i.sms();
+
+Based on the choice entered at runtime the appropriate network gets connected.
+
+
+}
+
+For class members the defult value based on the data type is assigned where as for local variables inside the function this default assignment is not done. So if we try to access it , it will give a error.
+
+
+
+
+

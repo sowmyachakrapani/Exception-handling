@@ -1,0 +1,4 @@
+c:\users\chakrapani\documents\visual studio 2010\Projects\CustomExceptioncreation\CustomExceptioncreation\bin\Debug\CustomExceptioncreation.exe
+c:\users\chakrapani\documents\visual studio 2010\Projects\CustomExceptioncreation\CustomExceptioncreation\bin\Debug\CustomExceptioncreation.pdb
+c:\users\chakrapani\documents\visual studio 2010\Projects\CustomExceptioncreation\CustomExceptioncreation\obj\x86\Debug\CustomExceptioncreation.exe
+c:\users\chakrapani\documents\visual studio 2010\Projects\CustomExceptioncreation\CustomExceptioncreation\obj\x86\Debug\CustomExceptioncreation.pdb

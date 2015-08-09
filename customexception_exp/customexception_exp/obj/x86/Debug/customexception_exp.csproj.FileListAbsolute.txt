@@ -1,0 +1,6 @@
+c:\users\chakrapani\documents\visual studio 2010\Projects\customexception_exp\customexception_exp\bin\Debug\customexception_exp.exe
+c:\users\chakrapani\documents\visual studio 2010\Projects\customexception_exp\customexception_exp\bin\Debug\customexception_exp.pdb
+c:\users\chakrapani\documents\visual studio 2010\Projects\customexception_exp\customexception_exp\obj\x86\Debug\customexception_exp.exe
+c:\users\chakrapani\documents\visual studio 2010\Projects\customexception_exp\customexception_exp\obj\x86\Debug\customexception_exp.pdb
+C:\Users\chakrapani\Documents\c#_training\Exception handling\customexception_exp\customexception_exp\obj\x86\Debug\customexception_exp.exe
+C:\Users\chakrapani\Documents\c#_training\Exception handling\customexception_exp\customexception_exp\obj\x86\Debug\customexception_exp.pdb

@@ -1,0 +1,85 @@
+Exception handling avoids abnormal termination of program & once the program is rectified execution will continue smoothly.
+Loophole ofZx a program is a bug when it is identified it becomes a error. After an error is identified then exception handling is done.
+BUG:Initial stage of application issue.
+ERROR:When bug is identified it becomes a error.
+EXCEPTION HANDLING :Solution to exceptions.
+
+How to handle exceptions :
+ Once the testing team says possible errors we can write try/catch blocks for these. Only if we encounter an error the corresponding try/catch block is executed. 
+If no errors occur then no try/catch is executed.
+Thus instead of writing solutions to all possible errors  best is to write try/catch blocks which will get executed when the corresponding error occurs.
+
+try
+{
+
+
+}
+catch(Err 1){....}
+catch(Err 2){....}
+
+During execution when a runtime error is encountered instance of error class is created by the microsoft runtime engine & same will be compared with all
+possible catch blocks & executes the matched one as solution for the runtime error.
+Basic Rules :
+1. A program can have any number of try catch blocks.
+2.Every try should have atleast one catch block.
+3.No two catch blocks for same try can have the same error type.
+
+try{....}
+catch(err6 e){....},ljo90 
+catch(err8 e){....}
+
+Q.Find a/b & handle all runtime exceptions.
+
+Generic Exception:
+
+All error classes are derived from exception base class. If error encountered doesnt match any of the existing catch blocks then atleast some generic solution is 
+executed instead of abnormal termination.
+
+Custom Exception :
+ If object is to be printed ToString method is to be called.
+Programmer defined error classes are used to handle runtime exceptions which are not handled by .net framework.
+e.g negative age value is not standard .net framework exception but it is application related bug so will have to be handled using custom exception.
+
+Finally block :
+ This is an opyional block which gets executed all the time.
+*even if everything goes fine finally runs.
+* even if exceptions are raised they are handled by catch block then finally runs.
+* even if exceptions are not handled finally still runs.
+
+Rules : Finally block should be used after catch block.Only one finally block for each try.
+
+Assignment
+1. Accept mailid frm user and use custom exception to validate
+conditions :
+*should have @symbol
+*Ends with .com
+*@ can't be 1st letter
+If everything goes fine display as registered.
+
+2.Fill array with 'n' integers & print sum. During array fill on invalid input ,handle case and continue accepting values.
+
+3.Accept time & increment time by +1 sec.Using custom exception check for valid time input i.e hour cant be -ve or >24. Min and secs cant be negative or >60.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cam studio software is used for recording.
